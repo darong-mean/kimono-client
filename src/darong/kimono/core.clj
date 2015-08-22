@@ -1,6 +1,4 @@
-(ns darong.kimono.core)
+(ns darong.kimono.core
+  (:require [environ.core :refer [env]]))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+#_(def apikey (env :kimono-apikey))

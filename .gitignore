@@ -12,3 +12,5 @@ pom.xml.asc
 
 # Intellij Idea
 .idea
+
+profiles.clj
